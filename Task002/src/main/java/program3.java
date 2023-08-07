@@ -1,11 +1,5 @@
 /*
-Дан следующий код, исправьте его там, где требуется (задание 3 https://docs.google.com/document/d/17EaA1lDxzD5YigQ5OAal60fOFKVoCbEJqooB9XfhT7w/edit)
-Решение:
-Добавим исключение деления на ноль - ArithmeticException - это более точно, нежели просто Exception.
-Заменим Throwable на Exception, т.к. Throwable я вляется родителем не только для Exception, но и для Error,
-а Error разрулить в try-catch невозможно.
-В методе printSum исключение FileNotFoundException  не нужно, т.к. в нём вообще не работаем с файлами.
-Ну и оставим всё же Exception, на случай непредвиденных исключений.
+Задание 3
 */
 public class program3 {
     public static void main(String[] args) {
